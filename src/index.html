@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-josefin">
+    <!-- header -->
+    <header class="py-4 bg-[#7E33E0]">
+      <div class="container mx-auto w-[1177px]">
+        <div class="nav flex justify-between items-center">
+          <div class="nav_left flex gap-7 items-center">
+            <div class="email flex items-center gap-2">
+              <img src="./assets/icons/msg.svg" alt="" />
+              <a href="#" class="text-white font-semibold font-josefin"
+                >elshodjorayev701@gmail.com</a
+              >
+            </div>
+            <div class="tel flex gap-2 items-center">
+              <img src="./assets/icons/tel.svg" alt="" />
+              <a
+                class="text-white font-semibold text-base font-josefin"
+                href="tel: +998900692200"
+                >+998900692200</a
+              >
+            </div>
+          </div>
+          <div class="nav_right flex gap-3 items-center">
+            <select
+              class="flex p-2 items-center border-transparent bg-[transparent] outline-none text-white"
+            >
+              <option class="text-black" value="asd">Eng</option>
+              <option class="text-black" value="asd">Rus</option>
+              <option class="text-black" value="asd">Uzb</option>
+            </select>
+            <select
+              class="flex items-center border-transparent bg-[transparent] outline-none text-white"
+            >
+              <option class="text-black" value="asd">USD</option>
+              <option class="text-black" value="asd">UZS</option>
+              <option class="text-black" value="asd">RUBL</option>
+            </select>
+            <p class="text-white flex items-center gap-1">
+              Login <img src="./assets/icons/user-icon.svg" alt="" />
+            </p>
+            <p class="text-white flex items-center gap-1">
+              Wishlist <img src="./assets/icons/like.svg" alt="" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+    <div class="container mx-auto w-[1177px]">
+      <!-- navbar -->
+      <div
+        class="navbar font-lato h-[40px] items-center my-[19px] mt-5 flex justify-between"
+      >
+        <div class="logo">
+          <img src="./assets/icons/logo.svg" alt="" />
+        </div>
+        <div class="nav_list flex items-center gap-[35px]">
+          <select
+            class="bg-transparent text-[#FB2E86] border-none outline-none"
+          >
+            <option value="">Home</option>
+            <option value="">Product</option>
+            <option value="">Service</option>
+          </select>
+          <p>Pages</p>
+          <p>Product</p>
+          <p>About</p>
+          <p>Blog</p>
+          <p>Shop</p>
+        </div>
+
+        <form
+          class="for_input pl-2 flex justify-between items-center h-[40px] w-[300px] bg-white border-solid border-[3px] border-[#E7E6EF]"
+        >
+          <input
+            class="bg-transparent w-[230px] h-10 outline-none"
+            type="text"
+            placeholder="Search"
+          />
+          <button type="submit" class="bg-transparent border-none">
+            <img
+              class="bg-[#FB2E86] p-[8px]"
+              src="./assets/icons/search.svg"
+              alt=""
+            />
+          </button>
+        </form>
+      </div>
+      <!-- navbar -->
+    </div>
+
+    <!-- main -->
+    <main>
+      <section class="bg-[#F2F0FF] h-[100vh] flex mx-auto relative">
+        <img
+          class="absolute left-[0px]"
+          src="./assets/images/lampa.svg"
+          alt=""
+        />
+
+        <div class="container mx-auto w-[1177px] text-blue">
+          <div class="content w-[644px] mt-[200px]">
+            <p class="font-lato text-2xl font-bold text-[#FB2E86]">
+              Best Furniture For Your Castle....
+            </p>
+            <h1
+              class="font-josefin text-[53px] leading-0 font-bold tracking-[0.795px]"
+            >
+              New Furniture Collection Trends in 2020
+            </h1>
+            <p class="font-bold font-lato text-base text-[#8A8FB9]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
+              est adipiscing in phasellus non in justo.
+            </p>
+            <button class="bg-[#FB2E86] py-3 px-10 border-none mt-7 text-white">
+              Shop Now
+            </button>
+          </div>
+        </div>
+
+        <img
+          class="img w-[706px] h-[689px] absolute right-[100px]"
+          src="./assets/images/hero.png"
+          alt=""
+        />
+      </section>
+    </main>
+    <!-- main -->
+  </body>
+</html>
